@@ -10,39 +10,47 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
     </head>
     <body>
         <nav>
             <ul class="navtop">
                 <p class="left"><strong>Questions? Need Help?</strong> Call us on (+123) 456 1500</p>
-                <li class="middle"><img src="images/Vector.png" alt="" width="18px" height="18px"><a href="#"></a>BTP Gift Card</li>
+                <li><img src="images/Vector.png" alt="" width="18px" height="18px"><a href="#"></a>BTP Gift Card</li>
                 <li><img src="images/star.png" alt="" width="18px" height="18px"><a href="#"></a>Loyalty Program</li>
             </ul>
             <div class="white"></div>
             <div class="navbar">
                 <div class="logo">BEST <p class="tour">TOUR</p> PLAN</div>
-                <div class="search-bar">
-                    <input class="search-text" type="text" name="" placeholder="Search Location" />
-                    <input class="search-btn search-icon" type="button" href="#" />
+                <div class="search">
+                    <input class="search__text" type="text" name="" placeholder="Search Location" />
+                    <input class="search__btn search__icon" type="button" href="#" />
                 </div>
-                <div class="shopping-cart"><img src="images/shopping-cart.png" alt="">
+                <div class="shopping-cart">
+                    <a href="#">
+                        <img src="images/shopping-cart.png" alt="">
+                    </a>
                     <div class="cart-num">2</div>
                 </div>
                 <div class="profile">
-                    <div class="profile-pic"></div>
+                    <div class="profile__pic"></div>
                      Nathan
-                    <div class="dropdown-menu"><img src="images/dropdown.png" alt=""></div>
+                    <div class="dropdown-menu">
+                        <a href="#">
+                            <img src="images/dropdown.png" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="blue"></div>
             <div class="navbot">
-                <div>ALL DEALS</div>
-                <div>HOTELS</div>
-                <div>ACTIVITIES</div>
-                <div>HOTEL DAY PACKAGES</div>
-                <div>RESTAURANTS</div>
-                <div>EVENTS</div>
-                <div>RODRIGUES</div>
+                <a href="#">ALL DEALS</a>
+                <a href="#">HOTELS</a>
+                <a href="#">ACTIVITIES</a>
+                <a href="#">HOTEL DAY PACKAGES</a>
+                <a href="#">RESTAURANTS</a>
+                <a href="#">EVENTS</a>
+                <a href="#">RODRIGUES</a>
             </div>
         </nav>
         <div class="path">Home / Flash Offers / Grand Hilton Hotel</div>
@@ -57,16 +65,41 @@
             <div class="hotel-name">GRAND HILTON HOTEL</div>
             <div class="offer">Flash offer</div>
             <div class="offer-description">Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free</div>
+            <div class="user-rating">User ratings
+                <p class="rate">4.5 / 5</p>
+            </div>
         </div>
-        <div class="user-rating">User ratings
-            <p class="rate">4.5/<p style="display: inline; font-size: 10px;">5</p></p>
-        </div>
-        <div class="slider-opt-map">
-            <span class="slider" >
+        <div class="slider-container">
+            <div class="slider" >
                 <img src="images/Slider.png" alt="" >
-            </span>
-            <span class="opt"></span>
-            <div class="map"></div>
+            </div>
+            <div class="opt-map__container">
+                <div class="opt">
+                    <div class="opt__info">
+                        <div class="opt__info__price">
+                            price starts at <br/>
+                            <p>$ 8,500</p>
+                            <br/> per room / night
+                        </div>
+                        <div class="opt__info__guests">
+                            <img src="images/user.png" alt=""> 2 x Guests <br/>
+                            <img src="images/home.png" alt=""> 1 x Room
+                        </div>
+                    </div>
+                    <div class="opt__quick">bbbbbbbb</div>
+                    <button>aaa</button>
+                </div>
+                <div class="map"></div>
+            </div>
+        </div>
+        <div class="cards-menu">
+            <a href="#">Package Summery</a>
+            <a href="#">Hotel Information</a>
+            <a href="#">Rooms</a>
+            <a href="#">Facilities & Activities</a>
+            <a href="#">Dining & Entertainment</a>
+            <a href="#">Reviews</a>
+            <a href="#">Questions & Answers</a>
         </div>
     </body>
 </html>
