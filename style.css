@@ -83,6 +83,10 @@ body {
     font-size: 24px;
     margin-right: auto;
 }
+.logo a{
+    color: inherit;
+    text-decoration: none;
+}
 
 .tour {
     display: inline;
@@ -111,7 +115,7 @@ body {
     height: 40px;
     background-color: #F5FAFE;
     border: 0 !important;
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 8px 0px 0px 8px;
     list-style: none;
     line-height: none;
     text-indent: 30px;
@@ -124,16 +128,14 @@ body {
     background-color: #EC1F46;
     width: 65px;
     height: 40px;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 8px 8px 0px;
     border: 0;
 }
-
-.search-btn:hover {
-    background-color: #F2994A;
+.search__btn:hover {
+    cursor: pointer;
 }
-
-.search-btn:active {
- background-color: #EC1F46;
+.search__btn:active {
+    background-color: rgb(236, 31, 70, 0.80)
 }
 
 .shopping-cart {
@@ -189,22 +191,20 @@ body {
     align-items: center;
     font-family: 'Mulish', sans-serif;
     font-size: 14px;
+    font-weight: bold;
     z-index: 2;
     background: #0A223D;
     width: var(--body-weight);
     height: 80px;
 }
-
 .navbot a {
     position: relative;
     color: white;
     text-decoration: none;
 }
-
 .navbot a:hover {
     color: white;
 }
-
 .navbot a::after{
     content: "";
     position: absolute;
@@ -216,10 +216,12 @@ body {
     transform: scaleX(0);
     transition: transform 0.5s ease;
 }
-
 .navbot a:hover::after {
     transform: scaleX(1);
-  }
+}
+.navbot a:active {
+    color: rgb(255, 255, 255, 0.80);
+}
 
 .path {
     font-family: 'Mulish', sans-serif;
@@ -260,7 +262,7 @@ body {
     width: 70px;
     height: 20px;
     background-color: #EC1F46;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 8px 8px 8px 8px;
 }
 
 .offer-description {
@@ -282,7 +284,7 @@ body {
     height: 45px;
     background-color: #EC1F46;
     color: white;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 8px 8px 8px 8px;
 }
 
 .rate {
@@ -299,7 +301,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    margin-left: 30px;
+    margin-left: 33px;
 }
 
 .opt, 
@@ -308,7 +310,7 @@ body {
     height: 210px;
     background: #0A223D;
     display: flex;
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 8px 8px 8px 8px;
 }
 
 .opt {
@@ -320,24 +322,57 @@ body {
     color: white;
     padding: 20px;
 }
-.opt__info div {
-    width: 50%;
+
+.opt__info__guests {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
 .opt__info__price,
 .opt__info__guests {
-    height: 51px;
+    min-height: 48px;
+    font-weight: bold;
+    font-size: 10px;
 }
-.opt__info__price p {
+.opt__info__price p:nth-child(2) {
     display: inline;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
 }
 
 .opt__info {
-    font-size: 10px;
     display: flex;
     justify-content: flex-start;
+}
+
+.opt__quick {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 13px;
+    font-size: 18px;
+}
+
+.opt__quick p:first-of-type {
+    margin-right: auto;
+    margin-left: -10px;
+}
+.opt__quick p:last-of-type {
+    margin-right: -10px;
+}
+
+.opt button {
+    color: #fff;
+    font-size: 14px;
+    background-color: #EC1F46;
+    border-radius: 4px 4px 4px 4px;
+    border: none;
+    cursor: pointer;
+}
+.opt button:active {
+    color: rgb(255, 255, 255, 0.80);
 }
 
 .opt__info,

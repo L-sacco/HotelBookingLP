@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
     </head>
@@ -21,7 +21,7 @@
             </ul>
             <div class="white"></div>
             <div class="navbar">
-                <div class="logo">BEST <p class="tour">TOUR</p> PLAN</div>
+                <div class="logo"><a href="index.html"> BEST <p class="tour">TOUR</p> PLAN</a></div>
                 <div class="search">
                     <input class="search__text" type="text" name="" placeholder="Search Location" />
                     <input class="search__btn search__icon" type="button" href="#" />
@@ -29,8 +29,8 @@
                 <div class="shopping-cart">
                     <a href="#">
                         <img src="images/shopping-cart.png" alt="">
+                        <div class="cart-num">2</div>
                     </a>
-                    <div class="cart-num">2</div>
                 </div>
                 <div class="profile">
                     <div class="profile__pic"></div>
@@ -77,17 +77,21 @@
                 <div class="opt">
                     <div class="opt__info">
                         <div class="opt__info__price">
-                            price starts at <br/>
+                            <p>price starts at</p>
                             <p>$ 8,500</p>
-                            <br/> per room / night
+                            <p>per room / night</p>
                         </div>
                         <div class="opt__info__guests">
-                            <img src="images/user.png" alt=""> 2 x Guests <br/>
-                            <img src="images/home.png" alt=""> 1 x Room
+                            <p><img src="images/user.png" alt=""> 2 x Guests</p>
+                            <div style="height: 10%;"></div>
+                            <p><img src="images/home.png" alt=""> 1 x Room</p>
                         </div>
                     </div>
-                    <div class="opt__quick">bbbbbbbb</div>
-                    <button>aaa</button>
+                    <div class="opt__quick">
+                        <p>Quick Booking</p>
+                        <p><img src="images/Tel.png" alt="">12100</p>
+                    </div>
+                    <button>View Other Options</button>
                 </div>
                 <div class="map"></div>
             </div>
@@ -101,5 +105,6 @@
             <a href="#">Reviews</a>
             <a href="#">Questions & Answers</a>
         </div>
+        <div></div>
     </body>
 </html>
