@@ -363,7 +363,7 @@ body {
     margin-right: -10px;
 }
 
-.opt button {
+button {
     color: #fff;
     font-size: 14px;
     background-color: #EC1F46;
@@ -611,4 +611,131 @@ hr {
     height: 90px !important;
     margin-right: 118px !important;
     margin-top: -20px !important;
+}
+
+.other-pk-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    width: var(--body-weight);
+    height: 100px;
+}
+
+.other-packages {
+    color: #fff;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    width: var(--body-weight);
+    height: 1030px;
+}
+.big-one {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 730px;
+    height: 500px;
+    border-radius: 8px;
+}
+.other-pk {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 500px;
+}
+.other-pk-main-det {
+    background: #0A223D;
+    height: 100%;
+    width: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 0 8px 8px 0;
+    padding-left: 35px;
+    padding-right: 15px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+.desc {
+    margin: 20px 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.other-pk-det {
+    background: #0A223D;
+    height: 50%;
+    width: 100%;
+    border-radius: 0 0 8px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.det-price {
+    width: 300px;
+    height: 200px;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pk-det-title {
+    width: 86%;
+    position: relative;
+    top: 16px;
+
+}
+.det-price div:first-of-type {
+    width: 100%;
+    height: 40%;
+    padding: 10px 0;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.det-price div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    height: 30%;
+    padding: 10px 0;
+    font-size: 10px;
+}
+.det-price div:nth-child(2) p:nth-child(1) {
+    text-decoration: line-through;
+}
+.det-price div:nth-child(2) p:nth-child(2) {
+    font-size: 22px;
+    font-weight: bold;
+}
+.det-price div button {
+    position: relative;
+    top: 15px;
+    width: 200px;
+    height: 40px;
+    margin-right: auto;
+}
+.det-price div button:active {
+    color: rgb(255, 255, 255, 0.75);
+}
+.det-price div p img {
+    position: relative;
+    top: 3px;
+    margin-right: 15px;
 }
