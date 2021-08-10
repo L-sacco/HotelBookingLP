@@ -946,4 +946,8 @@ footer {
     width: 1440px;
     height: 900px;
     background: #0A223D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
 }
