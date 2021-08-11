@@ -17,8 +17,8 @@
             <!-- navtop -->
                 <div class="navtop">
                     <p class="left"><strong>Questions? Need Help?</strong> Call us on (+123) 456 1500</p>
-                    <p><img src="images/Vector.png" alt="" width="18px" height="18px"><a href="#"></a>BTP Gift Card</p>
-                    <p><img src="images/star.png" alt="" width="18px" height="18px"><a href="#"></a>Loyalty Program</p>
+                    <p><img src="images/Vector.png" alt="" width="18px" height="18px"><a href="#">BTP Gift Card</a></p>
+                    <p><img src="images/star.png" alt="" width="18px" height="18px"><a href="#">Loyalty Program</a></p>
                 </div>
             <!-- /navtop -->
             <!-- navbar -->
@@ -26,9 +26,9 @@
                 <div class="nb-container">
                     <div class="logo">
                         <a href="index.html">
-                            BEST 
-                            <p>TOUR </p>
-                            PLAN
+                            best 
+                            <p>tour </p>
+                            plan
                         </a>
                     </div>
                     <div class="search">
@@ -44,10 +44,17 @@
                     <div class="profile">
                         <div class="profile__pic"></div>
                          Nathan
-                        <div class="dropdown-menu">
-                            <a href="#">
+                        <div class="dropdown">
+                            <a class="dropbtn" href="#">
                                 <img src="images/dropdown.png" alt="">
                             </a>
+                            <div class="dropdown-content">
+                                <a href="#">Profile</a>
+                                <a href="#">Payments</a>
+                                <a href="#">History</a>
+                                <a href="#">Settings</a>
+                                <a href="#">Logout</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -352,7 +359,7 @@
                 </div>
                 <div class="nl-email">
                     <input class="search__text" type="text" name="" placeholder="Your email address"/>
-                    <button class="search__btn" type="button" href="#">Send</button>
+                    <button class="search__btn">Send</button>
                 </div>
             </div>
         </div>
@@ -400,23 +407,90 @@
         </div>
         <!-- /activities -->
         <footer>
-            <div class="top-footer">
-                <div class="logo">
-                    BEST 
-                    <p>TOUR </p>
-                    PLAN
+            <div class="footer-cont">
+                <div class="top-footer">
+                    <div class="logo">
+                        <p>best</p>
+                        <p>tour</p>
+                        <p>plan</p>
+                    </div>
+                    <div>
+                        <p>ALL CATEGORIES</p> 
+                        <br/>
+                        <a href="#">All Deals</a>
+                        <a href="#">Hotels</a>
+                        <a href="#">Activities</a>
+                        <a href="#">Spa Packages</a>
+                        <a href="#">Hotel Day Packages</a>
+                        <a href="#">Restaurants</a>
+                        <a href="#">Fitness</a>
+                        <a href="#">Rodrigues</a>
+                    </div>
+                    <div>
+                        <p>ADDITIONAL INFORMATION</p> 
+                        <br/>
+                        <a href="#">About Us</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">How does it work?</a>
+                        <a href="#">Frequently Asked Questions</a>
+                        <a href="#">Deals.mu loyalty program</a>
+                        <a href="#">Promote your Business on BTP</a>
+                        <br/>
+                        <p>
+                            Social Network
+                            <span>
+                                <a href="#"><img src="images/fb-icon.png" alt=""></a>
+                                <a href="#"><img src="images/yt-icon.png" alt=""></a>
+                                <a href="#"><img src="images/ig-icon.png" alt=""></a>
+                            </span>
+                        </p>
+                    </div>
+                    <div>
+                        <p>LEGAL INFORMATION</p> 
+                        <br/>
+                        <a href="#">Terms & Conditions</a>
+                        <a href="#">Disclaimer</a>
+                        <a href="#">Cancellation policy</a>
+                        <a href="#">Privacy</a>
+                    </div>
                 </div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="mid-footer">
-                <div></div>
-                <div></div>
-            </div>
-            <div class="bot-footer">
-                <div></div>
-                <div></div>
+                <div class="mid-footer">
+                    <div class="midf-det">
+                        <p>CONTACT DETAILS</p><br/>
+                        <p>Feel free to contact us by phone, email or by our contact form</p><br/>
+                        <img src="images/gps-full.png" alt="">
+                        <p class="det-right">9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United States</p><br/>
+                        <img src="images/tel-full.png" alt="">
+                        <p class="det-right">
+                            Tel (business hours) : 269 1500<br/>
+                            Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00 pm)<br/>
+                            Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)
+                        </p><br/>
+
+                        <img src="images/msg-full.png" alt="">
+                        <p class="det-right">cherly.lawson@example.com</p>
+                    </div>
+                    <div class="midf-msg">
+                        <p>Send us a message</p>
+                        <div class="midf-msg__form">                        
+                            <form id="msg-form" action="">
+                                    <input type="name" placeholder="Your Full Name*" required>
+                                    <input type="tel" placeholder="Phone Number*" required>
+                                    <textarea form="msg-form" value="message" placeholder="Message (max 400 chars)" maxlength="400"></textarea>
+                                    <input type="submit" value="Send">
+                                    <div>* Required Fields</div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="bot-footer">
+                    <div>
+                        <a href="#">Disclaimer</a>
+                        <a href="#">Conditions of use</a>
+                        <a href="#">Cancellation policy</a>
+                    </div>
+                    <img src="images/pay-methods.png" alt="">
+                </div>
             </div>
         </footer>
     </body>
